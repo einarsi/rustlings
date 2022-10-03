@@ -3,8 +3,6 @@
 
 // Execute `rustlings hint generics2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 struct Wrapper<T> {
     value: T,
 }
@@ -14,12 +12,6 @@ impl<T> Wrapper<T> {
         Wrapper { value }
     }
 }
-
-// impl Wrapper<&str> {
-//     pub fn new(value: &str) -> Self {
-//         Wrapper { value }
-//     }
-// }
 
 #[cfg(test)]
 mod tests {
